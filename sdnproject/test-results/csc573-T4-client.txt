@@ -1,0 +1,6 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2015.11.28 13:35:53 =~=~=~=~=~=~=~=~=~=~=~=
+curl http://10.168.1.2/index.html
+CSC573 Team7 Server1
+-bash-4.1# curl http://10.168.1.2/index.html
+CSC573 Team7 Server1
+-bash-4.1# 

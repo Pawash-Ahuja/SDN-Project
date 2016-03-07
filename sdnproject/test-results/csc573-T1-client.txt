@@ -1,0 +1,9 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2015.11.28 13:03:32 =~=~=~=~=~=~=~=~=~=~=~=
+ssh 10.168.1.11
+ssh: connect to host 10.168.1.11 port 22: Connection timed out
+-bash-4.1# telnet 10.168.1.11
+Trying 10.168.1.11...
+telnet: connect to address 10.168.1.11: Connection timed out
+-bash-4.1# curl http://10.168.1.11/inde       2/index.html
+CSC573 Team7 Server1
+-bash-4.1# 

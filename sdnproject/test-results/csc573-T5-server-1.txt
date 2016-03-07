@@ -1,0 +1,29 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2015.11.28 13:52:07 =~=~=~=~=~=~=~=~=~=~=~=
+18:55:07.941276 ARP, Request who-has 10.168.1.11 tell 10.168.1.1, length 46
+18:55:07.941302 ARP, Reply 10.168.1.11 is-at fe:16:3e:00:78:91, length 28
+18:55:08.039593 ARP, Request who-has 172.16.1.11 tell 172.16.1.1, length 46
+18:55:08.139759 ARP, Request who-has 10.168.1.12 tell 10.168.1.1, length 46
+18:55:08.240699 ARP, Request who-has 10.168.1.13 tell 10.168.1.1, length 46
+18:57:21.256949 ARP, Request who-has 192.168.1.11 tell 172.16.1.1, length 46
+18:57:21.397480 IP 172.16.1.11.39073 > 10.168.1.3.80: Flags [S], seq 3880437215, win 14600, options [mss 1460,sackOK,TS val 249368515 ecr 0,nop,wscale 6], length 0
+18:57:21.397507 IP 10.168.1.3.80 > 172.16.1.11.39073: Flags [S.], seq 1197641410, ack 3880437216, win 14480, options [mss 1460,sackOK,TS val 249361804 ecr 249368515,nop,wscale 6], length 0
+18:57:21.502294 IP 172.16.1.11.39073 > 10.168.1.3.80: Flags [.], ack 1, win 229, options [nop,nop,TS val 249368613 ecr 249361804], length 0
+18:57:21.502313 IP 172.16.1.11.39073 > 10.168.1.3.80: Flags [P.], seq 1:248, ack 1, win 229, options [nop,nop,TS val 249368613 ecr 249361804], length 247
+18:57:21.502333 IP 10.168.1.3.80 > 172.16.1.11.39073: Flags [.], ack 248, win 243, options [nop,nop,TS val 249361909 ecr 249368613], length 0
+18:57:21.502597 IP 10.168.1.3.80 > 172.16.1.11.39073: Flags [P.], seq 1:491, ack 248, win 243, options [nop,nop,TS val 249361909 ecr 249368613], length 490
+18:57:21.502622 IP 10.168.1.3.80 > 172.16.1.11.39073: Flags [F.], seq 491, ack 248, win 243, options [nop,nop,TS val 249361909 ecr 249368613], length 0
+18:57:21.597741 IP 172.16.1.11.39073 > 10.168.1.3.80: Flags [.], ack 491, win 245, options [nop,nop,TS val 249368718 ecr 249361909], length 0
+18:57:21.597749 IP 172.16.1.11.39073 > 10.168.1.3.80: Flags [F.], seq 248, ack 491, win 245, options [nop,nop,TS val 249368718 ecr 249361909], length 0
+18:57:21.597754 IP 10.168.1.3.80 > 172.16.1.11.39073: Flags [.], ack 249, win 243, options [nop,nop,TS val 249362005 ecr 249368718], length 0
+18:57:21.616736 IP 172.16.1.11.39073 > 10.168.1.3.80: Flags [.], ack 492, win 245, options [nop,nop,TS val 249368742 ecr 249361909], length 0
+18:58:38.363676 ARP, Request who-has 192.168.1.12 tell 172.16.1.1, length 46
+19:00:47.989628 IP 172.16.1.11.39095 > 10.168.1.3.80: Flags [S], seq 592800316, win 14600, options [mss 1460,sackOK,TS val 249575105 ecr 0,nop,wscale 6], length 0
+19:00:47.989656 IP 10.168.1.3.80 > 172.16.1.11.39095: Flags [S.], seq 3098498918, ack 592800317, win 14480, options [mss 1460,sackOK,TS val 249568396 ecr 249575105,nop,wscale 6], length 0
+19:00:48.091308 IP 172.16.1.11.39095 > 10.168.1.3.80: Flags [.], ack 1, win 229, options [nop,nop,TS val 249575206 ecr 249568396], length 0
+19:00:48.091876 IP 172.16.1.11.39095 > 10.168.1.3.80: Flags [P.], seq 1:373, ack 1, win 229, options [nop,nop,TS val 249575206 ecr 249568396], length 372
+19:00:48.091900 IP 10.168.1.3.80 > 172.16.1.11.39095: Flags [.], ack 373, win 243, options [nop,nop,TS val 249568499 ecr 249575206], length 0
+19:00:48.092150 IP 10.168.1.3.80 > 172.16.1.11.39095: Flags [P.], seq 1:301, ack 373, win 243, options [nop,nop,TS val 249568499 ecr 249575206], length 300
+19:00:48.092192 IP 10.168.1.3.80 > 172.16.1.11.39095: Flags [F.], seq 301, ack 373, win 243, options [nop,nop,TS val 249568499 ecr 249575206], length 0
+19:00:48.282669 IP 172.16.1.11.39095 > 10.168.1.3.80: Flags [.], ack 301, win 245, options [nop,nop,TS val 249575354 ecr 249568499], length 0
+19:00:48.282903 IP 172.16.1.11.39095 > 10.168.1.3.80: Flags [F.], seq 373, ack 302, win 245, options [nop,nop,TS val 249575354 ecr 249568499], length 0
+19:00:48.282923 IP 10.168.1.3.80 > 172.16.1.11.39095: Flags [.], ack 374, win 243, options [nop,nop,TS val 249568690 ecr 249575354], length 0

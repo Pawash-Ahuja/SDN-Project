@@ -1,0 +1,18 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2015.11.28 14:13:04 =~=~=~=~=~=~=~=~=~=~=~=
+19:18:43.246031 ARP, Request who-has 10.168.1.11 tell 10.168.1.1, length 46
+19:18:43.346006 ARP, Request who-has 172.16.1.11 tell 172.16.1.1, length 46
+19:18:43.448582 ARP, Request who-has 10.168.1.12 tell 10.168.1.1, length 46
+19:18:43.448592 ARP, Reply 10.168.1.12 is-at fe:16:3e:00:ab:9a, length 28
+19:18:43.547761 ARP, Request who-has 10.168.1.13 tell 10.168.1.1, length 46
+19:21:29.926584 ARP, Request who-has 192.168.1.11 tell 172.16.1.1, length 46
+19:21:30.101817 IP 172.16.1.11.39219 > 10.168.1.3.80: Flags [S], seq 2157930832, win 14600, options [mss 1460,sackOK,TS val 250817555 ecr 0,nop,wscale 6], length 0
+19:21:30.101846 IP 10.168.1.3.80 > 172.16.1.11.39219: Flags [S.], seq 1346875291, ack 2157930833, win 14480, options [mss 1460,sackOK,TS val 250815494 ecr 250817555,nop,wscale 6], length 0
+19:21:30.224361 IP 172.16.1.11.39219 > 10.168.1.3.80: Flags [.], ack 1, win 229, options [nop,nop,TS val 250817686 ecr 250815494], length 0
+19:21:30.225397 IP 172.16.1.11.39219 > 10.168.1.3.80: Flags [P.], seq 1:372, ack 1, win 229, options [nop,nop,TS val 250817686 ecr 250815494], length 371
+19:21:30.225416 IP 10.168.1.3.80 > 172.16.1.11.39219: Flags [.], ack 372, win 243, options [nop,nop,TS val 250815617 ecr 250817686], length 0
+19:21:30.225731 IP 10.168.1.3.80 > 172.16.1.11.39219: Flags [P.], seq 1:289, ack 372, win 243, options [nop,nop,TS val 250815618 ecr 250817686], length 288
+19:21:30.225786 IP 10.168.1.3.80 > 172.16.1.11.39219: Flags [F.], seq 289, ack 372, win 243, options [nop,nop,TS val 250815618 ecr 250817686], length 0
+19:21:30.362868 IP 172.16.1.11.39219 > 10.168.1.3.80: Flags [.], ack 289, win 245, options [nop,nop,TS val 250817821 ecr 250815618], length 0
+19:21:30.362900 IP 172.16.1.11.39219 > 10.168.1.3.80: Flags [F.], seq 372, ack 290, win 245, options [nop,nop,TS val 250817821 ecr 250815618], length 0
+19:21:30.362907 IP 10.168.1.3.80 > 172.16.1.11.39219: Flags [.], ack 373, win 243, options [nop,nop,TS val 250815755 ecr 250817821], length 0
+19:24:02.864194 IP 172.16.1.11.39236 > 10.168.1.3.80: Flags [S], seq 787456554, win 14600, options [mss 1460,sackOK,TS val 250970341 ecr 0,nop,wscale 6], length 0
